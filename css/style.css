@@ -1,0 +1,73 @@
+/*Base*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	height:100%
+}
+/*Heading*/
+h1,h2,h3,h4{
+	text-align:center;
+	margin: 0;
+}
+h1{
+	font-size:4em;
+}
+h2{
+	font-size: 3em;
+	background-color: lightblue;
+}
+h3{
+	font-size: 1.5em;
+}
+header p{
+	font-size: 2em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:silver;
+/*Body*/
+body{
+	margin:0;
+	padding:0;
+}
+/*Links*/
+ul{
+	text-align: center;
+}
+/*Paragraph*/
+
+}
+p a{
+	text-align: left;
+	background-color: lightgreen;
+}
+/*Lists*/
+li{
+	text-align: center;
+	vertical-align:top;
+	display: inline-block;
+}
+/*Layout*/
+main{
+	width: 70%;
+}
+main,aside{
+	float:left;
+}
+article{
+	background-color: green;
+}
+/*Aside*/
+aside{
+	width: 30%;
+	background-color: gold;
+}
+/*Footer*/
+footer{
+	height: 80%;
+	background-color: silver;
+	clear: both;
+}
