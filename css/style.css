@@ -8,6 +8,9 @@ html{
 	height:80%;
 	width:95%;
 }
+body{
+	width:100%;
+}
 /*Heading*/
 h1,h2,h4{
 	text-align:center;
@@ -22,7 +25,6 @@ h1{
 h3{	
 	font-size: 2em;
 	font-family:'Slabo 27px', serif;
-	text-decoration: none;
 	padding-top: 10px;
 }
 header p{
@@ -35,17 +37,17 @@ header p{
 /*Links*/
 a{
 	margin:0 auto;
-	text-decoration: none;
-	font-size: 1.1em;
+	text-decoration:none;
+	font-size: 1em;
 	color: #028bed;
 	text-transform: uppercase;
 	font-family: 'Muli', sans-serif;
 	padding-bottom: 2px;
+	margin: 2px;
 }
 ul{
 	vertical-align:center;
-	text-decoration: none;
-	display:inline;
+	list-style-type: none;
 }
 /*Lists*/
 li{
@@ -53,25 +55,35 @@ li{
 	padding-top: 5px;
 	padding-bottom: 15px;
 }
-i{
+.fa-angle-down{
 	color:silver;
 	float: right;
 }
-ul:nth-child(1){
+.fa-circle{
+	font-size: 0.1em;
+	position:relative;
+	bottom: 3px;
+	left: 3px;
+	margin: 2px;
+}
+div ul:nth-child(1){
 	text-align: left;
 	float: left;
-	display: block;
+	display: inline-block;
 	width: 30%;
+	padding-right: 35px;
 }
-ul:nth-child(2){
+div ul:nth-child(2){
 	text-align: left;
 	float:middle;
-	display: block;
-	width: 30%;
+	display:inline-block;
+	width: 33%;
+	padding-left: 35px;
 }
-ul:nth-child(3){
+div ul:nth-child(3){
 	text-align: left;
 	float:right;
-	display: block;
-	width: 30%;
+	display:block;
+	width: 33%;
+	padding-right: 35px;
 }
