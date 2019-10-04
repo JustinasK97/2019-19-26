@@ -8,9 +8,6 @@ html{
 	height:80%;
 	width:95%;
 }
-body{
-	width:100%;
-}
 /*Heading*/
 h1,h2,h4{
 	text-align:center;
@@ -45,9 +42,13 @@ a{
 	padding-bottom: 2px;
 	margin: 2px;
 }
-ul{
+div ul{
 	vertical-align:center;
 	list-style-type: none;
+}
+@media(min-width: 300px){
+	div ul{
+		display: block;
 }
 /*Lists*/
 li{
@@ -55,6 +56,10 @@ li{
 	padding-top: 5px;
 	padding-bottom: 15px;
 }
+@media(min-width: 300px){
+	li{
+		
+	}
 .fa-angle-down{
 	color:silver;
 	float: right;
@@ -70,7 +75,7 @@ div ul:nth-child(1){
 	text-align: left;
 	float: left;
 	display: inline-block;
-	width: 30%;
+	width: 33%;
 	padding-right: 35px;
 }
 div ul:nth-child(2){
@@ -79,11 +84,13 @@ div ul:nth-child(2){
 	display:inline-block;
 	width: 33%;
 	padding-left: 35px;
+	padding-right: 35px;
 }
 div ul:nth-child(3){
 	text-align: left;
 	float:right;
-	display:block;
+	display:inline-block;
 	width: 33%;
 	padding-right: 35px;
+	padding-left: 35px;
 }
